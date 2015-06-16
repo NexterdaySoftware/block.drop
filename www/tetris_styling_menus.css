@@ -1,0 +1,177 @@
+.StartButton {
+	-moz-box-shadow: 1px 1px 0px 0px #378fb6;
+	-webkit-box-shadow: 1px 1px 0px 0px #378fb6;
+	box-shadow: 2px 2px 0px 0px #378fb6;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #32b6e6), color-stop(1, #45bde8));
+	background:-moz-linear-gradient(top, #32b6e6 5%, #45bde8 100%);
+	background:-webkit-linear-gradient(top, #32b6e6 5%, #45bde8 100%);
+	background:-o-linear-gradient(top, #32b6e6 5%, #45bde8 100%);
+	background:-ms-linear-gradient(top, #32b6e6 5%, #45bde8 100%);
+	background:linear-gradient(to bottom, #32b6e6 5%, #45bde8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#32b6e6', endColorstr='#45bde8',GradientType=0);
+	background-color:#0062cd;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #172e14;
+}
+.StartButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #378fb6), color-stop(1, #217da6));
+	background:-moz-linear-gradient(top, #378fb6 5%, #217da6 100%);
+	background:-webkit-linear-gradient(top, #378fb6 5%, #217da6 100%);
+	background:-o-linear-gradient(top, #378fb6 5%, #217da6 100%);
+	background:-ms-linear-gradient(top, #378fb6 5%, #217da6 100%);
+	background:linear-gradient(to bottom, #378fb6 5%, #217da6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378fb6', endColorstr='#217da6',GradientType=0);
+	background-color:#378fb6;
+}
+.StartButton:active {
+	position:relative;
+	top:1px;
+	left:1px;
+}
+.EndButton {
+	-moz-box-shadow: 1px 1px 0px 0px #111410;
+	-webkit-box-shadow: 1px 1px 0px 0px #111410;
+	box-shadow: 1px 1px 0px 0px #111410;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff0000), color-stop(1, #cc0000));
+	background:-moz-linear-gradient(top, #ff0000 5%, #cc0000 100%);
+	background:-webkit-linear-gradient(top, #ff0000 5%, #cc0000 100%);
+	background:-o-linear-gradient(top, #ff0000 5%, #cc0000 100%);
+	background:-ms-linear-gradient(top, #ff0000 5%, #cc0000 100%);
+	background:linear-gradient(to bottom, #ff0000 5%, #cc0000 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#cc0000',GradientType=0);
+	background-color:#ff0000;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #172e14;
+}
+
+.pauserowtd
+{
+  vertical-align: top;
+  border: none;
+}
+
+
+.score
+{
+  font: 14px Arial;
+  color: #fff;
+  text-align:right;
+  padding: 0px;
+  margin: 0px;
+} 
+
+.radio
+{
+  visibility:hidden;
+  height: 0px;
+  width: 0px;
+}
+
+h3{
+color: #fff;
+background: #000;
+margin: 1px 0;
+}
+
+label {
+  color: black;
+  display: block;
+  padding: 10px;
+  margin: 3px 0;
+  font: 14px/20px Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 70px;
+  text-align: center;
+  border: solid 1px #000;
+}
+
+label.helpbut {
+  color: black;
+  width:50%;
+  display: block;
+  padding: 7px;
+  margin: 2px 0;
+  font: 14px/20px Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 9px;
+  text-align: center;
+  border: solid 1px #000;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  top: 1px;
+}
+
+.isSelected {
+  background-color: #9E9;
+}
+
+.help {
+    background-color: #000;
+    z-index: -150;
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: -300px;
+    top: 0;
+    left: 0; 
+    z-index: 20;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0; 
+}
+.help.open {
+    z-index: 150;
+  
+   margin-left: 0px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  opacity: 1.0;
+}
+
+.helptext
+{
+  color: #fff;
+  margin: 10%;
+  
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+}
+
+
+
+

@@ -1,0 +1,25 @@
+
+Features:
+	-reduce download size:
+		*** see http://stackoverflow.com/questions/24952904/reduce-cordova-chrome-app-cca-apk-size
+				might not be possible
+		-remove unnecessary icons
+		-remove unnecessary other media
+		-remove frameworks
+		-minify & obfuscate?
+
+	-User timer to calibrate how fast blocks are dropping. Make it so slow machines function the same as fast ones.
+	-Global high score list
+	
+	-Disjoint UI and matrix of tiles so it runs faster
+	-Look for unused code to remove to increase performance
+
+Play Store Listing:
+	-new icon
+	-new screen shots
+	-update promo pic
+	
+Other:
+	Post on Amazon store
+	Port to ios
+	Test on emulated tablets and GN2

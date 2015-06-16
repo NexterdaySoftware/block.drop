@@ -1,0 +1,9 @@
+{
+  "packageId": "block.drop",
+  "android": {
+  },
+  "ios": {
+  },
+  
+  "orientation": [ "portrait-primary" ]
+}

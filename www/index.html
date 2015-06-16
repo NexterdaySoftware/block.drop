@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>game</title>
+    <script type="text/javascript" src="background.js"></script>
+    <script type="text/javascript" src="tetris_script.js"></script>
+    <script type="text/javascript" src="tetris_script_rendering.js"></script>
+    <script type="text/javascript" src="tetris_script_userinput.js"></script>
+    <link rel="stylesheet" type="text/css" href="tetris_styling.css" />
+    <link rel="stylesheet" type="text/css" href="tetris_styling_menus.css" />
+</head>
+
+<body>
+    <div class='titleoverlay'>
+        <div class='titleoverlayinner'>Block Drop</div>
+    </div>
+    <div id='helppage' class='help'>
+        <div class='helptext'>
+            <h3>Objective</h3>
+            <p>Clear rows for points.
+                <br>Multiple rows cleared at the same time will be awarded more points.
+                <br>Don't stack past the red line!</p>
+            <hr/>
+            <h3>Controls</h3>
+            <p>Swipe Controls (default):
+                <br>Anywhere on screen swipe &#8592;, &#8594;, &#8593;, or &#8595; to move left, right, rotate, or drop</p>
+            <br>
+            <p>Button Controls:
+                <br>The game area is divided into four large buttons for each of the four actions</p>
+            <br/>
+            <hr />
+            <h3>Game Sizes:</h3>
+            <p>You can play in 3 different sizes each for a unique experience:</p>
+            <ul>
+                <li>Crammed-&nbsp;&nbsp;6 wide; 4x points</li>
+                <li>Classic-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 wide; 2x points</li>
+                <li>Spacious-&nbsp;&nbsp;&nbsp;14 wide; 1x points</li>
+            </ul>
+            <br/>
+            <center>
+                <label id='help' class='helpbut'>
+                    <input id='helpclose' name='gsize' class='radio' /> Back
+                </label>
+            </center>
+        </div>
+    </div>
+    <div class='everything'>
+        <div id="board" class="board"></div>
+        <div class="overlay">
+            <table class="overlay">
+                <tr class="pauserow">
+                    <td class="pauserowtd" style="width:50%" align="left">
+                        <img id="pausebut" style='visibility:hidden' class="button" src="assets/pause.png" alt="pause" />
+                    </td>
+                    <td class="pauserowtd" style="width:50%" align="right">
+                        <span id="score" class="score"></span>
+                    </td>
+                </tr>
+                <tr class="restrow">
+                    <td id="controlBox" class="overlay" colspan="3"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

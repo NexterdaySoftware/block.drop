@@ -1,0 +1,39 @@
+{
+    "name": "Fullscreen Tetris",
+    "description": "Fullscreen Tetris",
+    "short_name":"Fullscreen Tetris",
+    "author":"Nexterday",
+    "manifest_version": 2,
+    "minimum_chrome_version": "23",
+    "version": "2.4.0",
+    "offline_enabled": true,
+    "icons": {
+        "16": "assets/icons/icon16.png",
+        "36": "assets/icons/icon36.png",
+        "48": "assets/icons/icon48.png",
+        "57": "assets/icons/icon57.png",
+        "72": "assets/icons/icon72.png",
+        "78": "assets/icons/icon78.png",
+        "96": "assets/icons/icon96.png",
+        "114": "assets/icons/icon114.png",
+        "120": "assets/icons/icon120.png",
+        "128": "assets/icons/icon128.png",
+        "144": "assets/icons/icon144.png",
+        "152": "assets/icons/icon152.png",
+        "180": "assets/icons/icon180.png"
+    },
+    "app": {
+        "background": {
+            "scripts": [
+                "background.js",
+                "tetris_script.js",
+                "tetris_script_rendering.js",
+                "tetris_script_userinput.js"
+            ]
+        }
+    },
+    "permissions": [
+        "storage"
+    ],
+    "orientation": [ "portrait-primary" ]
+}
